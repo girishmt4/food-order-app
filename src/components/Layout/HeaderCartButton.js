@@ -1,4 +1,3 @@
-import Header from "./Header";
 import CartIcon from '../Cart/CartIcon';
 import classes from './HeaderCartButton.module.css';
 
@@ -10,9 +9,9 @@ const HeadercartButton = props => {
             <CartIcon />
         </span>
         <span>Your Cart</span>
-        <span>
+        <spa className={classes.badge}>
             3
-        </span>
+        </spa>
     </button>
 };
 
